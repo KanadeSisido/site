@@ -39,6 +39,8 @@ for (let i = 0; i < menu_contents.length; i++)
     menu_contents[i].onclick = (function()
     {
         menu.classList.add("header-menu-move");
+        document.getElementById("menu-button-line-u").classList.remove("menu-button-hide");
+        document.getElementById("menu-button-line-l").classList.remove("menu-button-hide");
     });
 }
 
