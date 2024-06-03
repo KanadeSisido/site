@@ -16,8 +16,10 @@ body
     padding: 0;
     margin: 0;
 
-    font-family: "游ゴシック","Yu Gothic","YuGothic","游ゴシック体";
-    font-weight: 500;
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 
     background-color: #6f6f6f;
 }
@@ -297,7 +299,7 @@ body
     {
         font-size: 38px; 
         
-        letter-spacing: 0.03em;
+        letter-spacing: 0.07em;
         
         color: rgb(62, 62, 62);
     }
@@ -654,4 +656,9 @@ footer p
             font-size: 14px;
         }
         
+}
+
+.keyColors
+{
+    color:#2b2b2b;
 }
